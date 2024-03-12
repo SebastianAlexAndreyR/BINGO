@@ -2,7 +2,7 @@ console.log("Hello World!");
 
 function generateRandomNumber() {
     // Return random number 0 to 10;
-    let randomNum = Math.floor(Math.random() * 10) + 1;
+    let randomNum = Math.floor(Math.random() * 15) + 1;
     // if...else if..else statement
     // if (condition) {block of code to execute}
     // ==, ! =, >, <, > =, < =, %%, ||
