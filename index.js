@@ -2,13 +2,13 @@ console.log("Hello World!");
 
 function generateRandomNumber() {
     // Return random number 0 to 10;
-    let randomNum = Math.floor(Math.random() * 15) + 1;
+    let randomNum = Math.floor(Math.random() * max) + 1;
     // if...else if..else statement
     // if (condition) {block of code to execute}
     // ==, ! =, >, <, > =, < =, %%, ||
 
-    if(randomNum > 5) {
-        console.log('Random Number is > = to 5');
+    if(randomNum > 15) {
+        console.log('Random Number is in B.');
     } else {
         console.log('Random NUmber is < = to 5');
     }
